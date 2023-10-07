@@ -73,3 +73,8 @@ D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\Micr
 D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\System.CodeDom.dll
+D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\MailKit.dll
+D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\MimeKit.dll
+D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\ДЗ_Шаг\ASP.net\GitHub\ASP.net_lesson_3\db_and_news\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
