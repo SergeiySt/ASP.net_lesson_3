@@ -3,6 +3,28 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>User List</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.id_users</td>
+                    <td>@user.SName</td>
+                    <td>@user.SEmail</td>
+                    <td>@user.SPhone</td>
+                    <td>@user.SDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
 </div>

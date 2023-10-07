@@ -1,5 +1,6 @@
 ﻿using db_and_news.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace db_and_news.Controllers
@@ -15,7 +16,14 @@ namespace db_and_news.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            //var users = ADbContext.Users.ToList();
+            //return View();
+            using (var context = new ADbContext()) 
+            {
+                var users = context.Users.ToList(); 
+
+                return View(users); 
+            }
         }
 
         public IActionResult Privacy()
