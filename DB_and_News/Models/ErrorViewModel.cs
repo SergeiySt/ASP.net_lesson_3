@@ -1,4 +1,4 @@
-namespace DB_and_News.Models
+namespace DB_and_news.Models
 {
     public class ErrorViewModel
     {
