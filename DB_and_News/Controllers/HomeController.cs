@@ -1,8 +1,8 @@
-﻿using DB_and_News.Models;
+﻿using DB_and_news.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DB_and_News.Controllers
+namespace DB_and_news.Controllers
 {
     public class HomeController : Controller
     {
